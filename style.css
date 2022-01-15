@@ -3,6 +3,45 @@
  ------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap");
 
+/* ---------------------Responsive style start-------------------  */
+
+/*---------------------
+ design for mobile
+ ----------------------*/
+
+@media only screen and (max-width: 576px) {
+  header > .navbar {
+    display: none;
+  }
+
+  .first-section {
+    flex-direction: column;
+  }
+
+  .first-section > .half {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .logo-section {
+    display: none;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .last-section > .info {
+    width: 100%;
+  }
+
+  .last-section > .youtube {
+    display: none;
+  }
+}
+/* ---------------------Responsive style End-------------------  */
+
 /*------------------------
  common style 
  -------------------------*/
@@ -137,8 +176,7 @@ h3 {
  Popular Collection style End
   --------------------------*/
 
-/* last section design start */
-
+/* last section design style */
 .last-section {
   display: inline-flex;
   justify-content: space-between;
@@ -181,8 +219,7 @@ a {
 .youtube > iframe {
   box-shadow: 0 0 20px gray;
 }
-
-/* last section design end */
+/* last section style end */
 
 /*------------------------- 
  footer section style start  
