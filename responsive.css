@@ -37,6 +37,9 @@
     width: 100%;
     margin: 1em 0;
   }
+  .half > h1 {
+    font-size: 30px;
+  }
 
   .products {
     display: grid;
