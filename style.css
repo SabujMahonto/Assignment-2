@@ -79,13 +79,13 @@ header {
   transform: scale(1.3, 1.3);
 }
 
-/* -----------------------------
+/* ---------------------------
       first section style end 
  ----------------------------*/
 
-/*-----------------------
+/*---------------------------
  Popular Collection style start
-  -----------------------*/
+  ---------------------------*/
 .collection {
   margin: 5em 0;
 }
@@ -103,7 +103,7 @@ header {
 }
 
 .products > .product {
-  border-radius: 5px;
+  border-radius: 6px;
   box-shadow: 0 0 20px gray;
 }
 
@@ -133,9 +133,56 @@ h3 {
   display: block;
   text-align: right;
 }
-/*-----------------------
+/*--------------------------
  Popular Collection style End
-  -----------------------*/
+  --------------------------*/
+
+/* last section design start */
+
+.last-section {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 50%;
+  margin: 3em 0;
+}
+
+.info > p {
+  text-align: justify;
+}
+
+.info > a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(224, 44, 109);
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.info > h2,
+img,
+p,
+a {
+  margin-left: 0%;
+}
+
+.youtube {
+  width: 40%;
+}
+
+.youtube > h2 {
+  text-align: center;
+}
+
+.youtube > iframe {
+  box-shadow: 0 0 20px gray;
+}
+
+/* last section design end */
 
 /*------------------------- 
  footer section style start  
