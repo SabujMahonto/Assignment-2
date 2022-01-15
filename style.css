@@ -36,7 +36,7 @@ header {
   ---------------------------- */
 
 /* ---------------------------
-     first section design start
+     first section style start
      ---------------------------- */
 .first-section {
   display: flex;
@@ -80,5 +80,38 @@ header {
 }
 
 /* -----------------------------
-      first section design end 
+      first section style end 
  ----------------------------*/
+
+/*------------------------- 
+ footer section style start  
+  ------------------------*/
+footer {
+  background-color: rgb(10, 8, 38);
+  margin-top: 1em;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-info > h2 {
+  margin-bottom: 0%;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.footer-social > .social {
+  margin-left: 1em;
+}
+/*--------------------- 
+ footer section style End
+   ------------------------*/
